@@ -3,4 +3,4 @@ layout: post
 title: Welcome!
 ---
 
-This is my first blog post. 
+Over the next 12 weeks, I will be stationed at [Metis](http://thisismetis.com) as a data science fellow. Follow me! 
