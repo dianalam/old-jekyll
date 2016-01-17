@@ -65,24 +65,26 @@ Based on the data considered and analysis so far, we'd recommend deploying stree
 
 Of course, these recommendations should be taken with a grain of salt--given the iterative process of data science and the short time frame (one week!) for this exercise, the analysis and findings are definitely the first iteration of findings. With more time, there are a number of additional points I'd love to dig my teeth into: 
 
-**Optimizing station selection:** 
+**Optimizing station selection** 
 
   * **Residence vs. station usage:** The philanthropic contribution data we used was based on tax returns, so zip codes are indexed to where people live, not necessarily where they work. Given that our top stations are primarily in office hubs and also that our time of day recommendations are during rush hour, we're likely to capture workers in the area (for whom we cannot estimate philanthropic inclinations). To refine our model, I'd love to find some additional data that describes the relationship between where people live and their commuting patterns (perhaps [Journey to Work](http://www.census.gov/hhes/commuting/) data from the Census?). 
 
   * **Other demographic/sectoral data:** The particular focus of a non-profit organization will likely define its supporters. Given that our non-profit was a tech organization, I would have loved to have considered areas with high concentrations of tech companies and affilitated orgs. The easiest way to do this would probably be to use [NAICS codes](http://www.census.gov/eos/www/naics/) and [Bureau of Labor Statistics](http://www.bls.gov/) data, but finding the right level and type of classification for tech companies is difficult, since codes are based on industry (i.e. the type of product) as opposed to the type of company. 
 
-  For example, Uber would probably be classified under code `48-49 - Transit and Ground Passenger Transporation` instead of what most of us would assume tech comapnies are under, either `51 - Information` or `54 - Professional, Scientific, and Technical Services`. There are ways to dig in deeper down to the six-digit code level, but these problems continue to persist. This is actually an issue that my old firm, HR&A Advisors, tackled in our study of the [NYC tech ecosystem](http://www.hraadvisors.com/nyctechstudy/)--we hand-picked a set of NAICS codes to try and capture the tech industry. 
+    For example, Uber would probably be classified under code `48-49 - Transit and Ground Passenger Transporation` instead of what most of us would assume tech comapnies are under, either `51 - Information` or `54 - Professional, Scientific, and Technical Services`. There are ways to dig in deeper down to the six-digit code level, but these problems continue to persist. This is actually an issue that my old firm, HR&A Advisors, tackled in our study of the [NYC tech ecosystem](http://www.hraadvisors.com/nyctechstudy/)--we hand-picked a set of NAICS codes to try and capture the tech industry. 
 
-  The best strategy here might just to be to pull the old domain knowledge card--Flatiron, the Meatpacking District, DUMBO, and Long Island City are probably good bets for tech. There are also many other factors I'd like to consider outside of industry: what about race and age? What about general foot traffic (e.g. areas with a lot of pedestrian activity, such as Broadway in SoHo)? 
+    The best strategy here might just to be to pull the old domain knowledge card--Flatiron, the Meatpacking District, DUMBO, and Long Island City are probably good bets for tech. There are also many other factors I'd like to consider outside of industry: what about race and age? What about general foot traffic (e.g. areas with a lot of pedestrian activity, such as Broadway in SoHo)? 
 
-**User interface:** 
+**User interface** 
+
 One of the reasons I decided to leave economic development/policy consulting and transition into tech was the desire to do something more with data than just produce charts and powerpoints. I'd love to build a tool here that empowers the client to use the data for their needs in the future, since the availability of their street team resources will likely fluctate. Perhaps a dashboard where the input would be street team capacity and the time/day availability, and the output would be a recommendation of the top three areas to deploy and/or a route for the time frame? 
 
 ## Code and presentation
 
 You can download my code and the associated data files on my [github](https://github.com/dianalam/mta-turnstile). See below for our deliverable presentation. 
 
-![final presentation]({{ site.url }}/assets/mta-wtwy-final.pdf)
+<iframe src="({{ site.url }}/assets/mta-wtwy-final.pdf)" frameborder="0" width="720" height="426.75" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 
 
 
