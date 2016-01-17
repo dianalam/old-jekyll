@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Munging the MTA: Optimizing a Non-Profit's Street Team Placements
+title: Munging the MTA\: Optimizing a Non-Profit's Street Team Placements
 ---
 
 As a lifelong New Yorker, I've come to find street team canvassers to be a common occurence during my daily commutes. I've always wondered how effective these teams are and how they decide to place themselves--anyone who has observed the interaction of strangers in New York City before will tell you that canvassers are not typically met with enthusiasm. Rather, people tend to go out of their way to avoid interaction. 
