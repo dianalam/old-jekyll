@@ -83,8 +83,7 @@ One of the reasons I decided to leave economic development/policy consulting and
 
 You can download my code and the associated data files on my [github](https://github.com/dianalam/mta-turnstile). See below for our deliverable presentation. 
 
-<iframe src="https://drive.google.com/file/d/0B4gJbxu8oVBVeWRRYURJNFI3" frameborder="0" width="720" height="426.75" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
+<div class="texmex-embeddialog-visibility jfk-butterBar-info">Only the owner and explicitly shared collaborators have access</div><div class="texmex-embeddialog-description">Paste HTML to embed in website:</div><textarea id="texmex-embed-textarea" rows="3" class="texmex-embeddialog-textarea" onclick="this.select()" readonly="readonly">&lt;iframe src=&quot;https://drive.google.com/file/d/0B4gJbxu8oVBVeWRRYURJNFI3YTA/preview&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;</textarea>
 
 
 
