@@ -83,7 +83,7 @@ One of the reasons I decided to leave economic development/policy consulting and
 
 You can download my code and the associated data files on my [github](https://github.com/dianalam/mta-turnstile). See below for our deliverable presentation. 
 
-<iframe src="({{ site.url }}/assets/mta-wtwy-final.pdf)" frameborder="0" width="720" height="426.75" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://drive.google.com/file/d/0B4gJbxu8oVBVeWRRYURJNFI3" frameborder="0" width="720" height="426.75" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 
