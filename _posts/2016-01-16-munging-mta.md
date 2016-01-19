@@ -79,9 +79,7 @@ Of course, these recommendations should be taken with a grain of salt--given the
 
 One of the reasons I decided to leave economic development/policy consulting and transition into tech was the desire to do something more with data than just produce charts and powerpoints. I'd love to build a tool here that empowers the client to use the data for their needs in the future, since the availability of their street team resources will likely fluctate. Perhaps a dashboard where the input would be street team capacity and the time/day availability, and the output would be a recommendation of the top three areas to deploy and/or a route for the time frame? 
 
-## Code and presentation
-
-You can download my code and the associated data files on my [github](https://github.com/dianalam/mta-turnstile). See below for our deliverable presentation. 
+## Presentation
 
 <iframe src="https://drive.google.com/file/d/0B4gJbxu8oVBVeWRRYURJNFI3YTA/preview" width="640" height="480"></iframe>
 
